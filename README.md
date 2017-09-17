@@ -14,8 +14,7 @@ Using CA that is not associated with domain registrar, that might be keeping me 
 
 Hobbyist discussions of project:
 
-https://wattflyer.com/forums/showthread.php?t=78891
-https://www.rcgroups.com/forums/showthread.php?2957311-Project-to-expose-C-rating-deceit-w-Wayne-Giles-meter
+https://wattflyer.com/forums/showthread.php?t=78891 & https://www.rcgroups.com/forums/showthread.php?2957311-Project-to-expose-C-rating-deceit-w-Wayne-Giles-meter
 
 To do: 
 Add QUIC protocol using Go/docker reverse proxy
