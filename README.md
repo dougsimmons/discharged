@@ -1,5 +1,6 @@
 # discharged
-Project to expose battery vendor exaggeration of safe continuous discharge ratings
+Project to expose battery vendor exaggeration of safe continuous discharge ratings.
+Hosting site on Chromebook. :)
 
 https://lipo.lol
 
@@ -12,6 +13,7 @@ SSL scores 390/400 A+ on ssllabs: https://dev.ssllabs.com/ssltest/analyze.html?d
 Using CA that is not associated with domain registrar, that might be keeping me from a perfect score? 
 
 Hobbyist discussions of project:
+
 https://wattflyer.com/forums/showthread.php?t=78891
 https://www.rcgroups.com/forums/showthread.php?2957311-Project-to-expose-C-rating-deceit-w-Wayne-Giles-meter
 
