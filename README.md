@@ -10,6 +10,8 @@ Censored nginx.conf here: https://lipo.lol/nginx.conf
 
 SSL scores 390/400 A+ on ssllabs: https://dev.ssllabs.com/ssltest/analyze.html?d=lipo.lol
 
+Experimenting with both Varnish and Memcached
+
 Using CA that is not associated with domain registrar, that might be keeping me from a perfect score? 
 
 Hobbyist discussions of project:
