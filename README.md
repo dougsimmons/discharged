@@ -12,9 +12,9 @@ Censored nginx.conf here: https://lipo.lol/nginx.conf
 
 SSL scores 390/400 A+ on ssllabs: https://dev.ssllabs.com/ssltest/analyze.html?d=lipo.lol
 
-Experimenting with both Varnish and Memcached (presently Varnish)
+Experimenting with both Varnish and Memcached (presently Varnish) # Running both
 
-Converted images to WebP with fallback to jpegs
+Converted images to WebP with fallback to jpegs # now done by ngx_pagespeed
 
 Added USED battery testing section to front page https://lipo.lol/#used
 
@@ -28,11 +28,16 @@ Site scores 100/100 on desktop and mobile with Pagespeed Insights.
 
 Now attempting to get Varnish to drag the site through another NGINX server, and have the NGINX HTTPS server use that as the proxy pass. Not expecting any speed gains but I want to learn Varnish.
 
+Sept 26th 17: 
+
+Varnish is now running, passing requests to an additional nginx http instance with the SSL termination done by NGINX on 443. Also running ngx_pagespeed which is hooked into memcached. 
 
 To do: 
 Add QUIC protocol using Go/docker reverse proxy
 
-Fix memcached
+Fix memcached DONE
+
+Add Varnish DONE
 
 Hobbyist discussions of project:
 
